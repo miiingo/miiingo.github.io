@@ -27,6 +27,42 @@
           "@type": "xsd:json"
         }
       }
+    },
+    "EmployeeCard": {
+      "@id": "ex:EmployeeCard",
+      "@context": {
+        "@version": 1.1,
+        "@protected": true,
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "ex": "https://example.org/examples#",
+        "id": "@id",
+        "type": "@type",
+        "name": "http://schema.org/name",
+        "birth": {
+          "@id": "ex:birth",
+          "@type": "xsd:string"
+        },
+        "gender": {
+          "@id": "ex:gender",
+          "@type": "xsd:string"
+        },
+        "company": {
+          "@id": "ex:company",
+          "@type": "xsd:string"
+        },
+        "employeeid": {
+          "@id": "ex:employeeid",
+          "@type": "xsd:string"
+        },
+        "issuedate": {
+          "@id": "ex:issuedate",
+          "@type": "xsd:string"
+        },
+        "expdate": {
+          "@id": "ex:expdate",
+          "@type": "xsd:string"
+        }
+      }
     }
   }
 }
