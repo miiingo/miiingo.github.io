@@ -16,12 +16,9 @@
       "@context": {
         "@version": 1.1,
         "@protected": true,
-        "id": "@id",
-        "type": "@type",
+        "name": "http://schema.org/name",
         "xsd": "http://www.w3.org/2001/XMLSchema#",
         "ex": "https://example.org/examples#",
-        "name": "http://schema.org/name",
-        "description": "http://schema.org/description",
         "subject": {
           "@id": "ex:subject",
           "@type": "xsd:json"
