@@ -15,7 +15,6 @@
       "@context": {
         "@version": 1.1,
         "@protected": true,
-        "type": "@type",
         "xsd": "http://www.w3.org/2001/XMLSchema#",
         "ex": "https://example.org/examples#",
         "user_id": {
