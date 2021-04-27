@@ -11,7 +11,6 @@
     },
     "hetc": "https://w3c-ccg.github.io/vc-json-schemas/example/cmtr/v0.2/cmtr-v0.2#",
     "SpUserCard": {
-      "@id": "ex:SpUserCard",
       "@context": {
         "@version": 1.1,
         "@protected": true,
