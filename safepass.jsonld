@@ -1,0 +1,90 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "ex": "https://example.org/examples#",
+    "name": "http://schema.org/name",
+    "image": {
+      "@id": "http://schema.org/image",
+      "@type": "@id"
+    },
+    "hetc": "https://w3c-ccg.github.io/vc-json-schemas/example/cmtr/v0.2/cmtr-v0.2#",
+    "SpUserCard": {
+      "@context": {
+        "@version": 1.1,
+        "@protected": true,
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "ex": "https://example.org/examples#",
+        "user_id": {
+          "@id": "ex:user_id",
+          "@type": "xsd:string"
+        },
+        "user_nm": {
+          "@id": "ex:user_nm",
+          "@type": "xsd:string"
+        },
+        "user_birth": {
+          "@id": "ex:user_birth",
+          "@type": "xsd:string"
+        },
+        "hp_no": {
+          "@id": "ex:hp_no",
+          "@type": "xsd:string"
+        },
+        "email_addr": {
+          "@id": "ex:email_addr",
+          "@type": "xsd:email"
+        },
+        "gen_cd": {
+          "@id": "ex:gen_cd",
+          "@type": "xsd:string"
+        },
+        "nation_gbcd": {
+          "@id": "ex:nation_gbcd",
+          "@type": "xsd:string"
+        },
+        "ci": {
+          "@id": "ex:ci",
+          "@type": "xsd:string"
+        },
+        "di": {
+          "@id": "ex:di",
+          "@type": "xsd:string"
+        },
+        "alarm_allow_yn": {
+          "@id": "ex:alarm_allow_yn",
+          "@type": "xsd:boolean"
+        },
+        "wd_reason": {
+          "@id": "ex:wd_reason",
+          "@type": "xsd:string"
+        },
+        "del_yn": {
+          "@id": "ex:del_yn",
+          "@type": "xsd:boolean"
+        },
+        "last_chng_dt": {
+          "@id": "ex:last_chng_dt",
+          "@type": "xsd:date-time"
+        },
+        "last_chng_user_no": {
+          "@id": "ex:last_chng_user_no",
+          "@type": "xsd:string"
+        },
+        "frst_reg_dt": {
+          "@id": "ex:frst_reg_dt",
+          "@type": "xsd:date-time"
+        },
+        "frst_reg_user_no": {
+          "@id": "ex:frst_reg_user_no",
+          "@type": "xsd:string"
+        },
+        "bizid": {
+          "@id": "ex:bizid",
+          "@type": "xsd:string"
+        }
+      }
+    }
+  }
+}
