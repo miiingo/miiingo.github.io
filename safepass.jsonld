@@ -88,6 +88,76 @@
           "@type": "xsd:string"
         }
       }
+    },
+    "UserInfo": {
+      "@id": "ex:UserInfo",
+      "@context": {
+        "@version": 1.1,
+        "@protected": true,
+        "id": "@id",
+        "type": "@type",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "ex": "https://example.org/examples#",
+        "name": {
+          "@id": "ex:name",
+          "@type": "xsd:string"
+        },
+        "birthday": {
+          "@id": "ex:birthday",
+          "@type": "xsd:string"
+        },
+        "sex": {
+          "@id": "ex:sex",
+          "@type": "xsd:string"
+        },
+        "phoneno": {
+          "@id": "ex:phoneno",
+          "@type": "xsd:string"
+        },
+        "localYN": {
+          "@id": "ex:localYN",
+          "@type": "xsd:email"
+        },
+        "registerdate": {
+          "@id": "ex:registerdate",
+          "@type": "xsd:string"
+        }
+      }
+    },
+    "SafePass": {
+      "@id": "ex:SafePass",
+      "@context": {
+        "@version": 1.1,
+        "@protected": true,
+        "id": "@id",
+        "type": "@type",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "ex": "https://example.org/examples#",
+        "testtype": {
+          "@id": "ex:testtype",
+          "@type": "xsd:string"
+        },
+        "docid": {
+          "@id": "ex:docid",
+          "@type": "xsd:string"
+        },
+        "result": {
+          "@id": "ex:result",
+          "@type": "xsd:string"
+        },
+        "medicalNM": {
+          "@id": "ex:medicalNM",
+          "@type": "xsd:string"
+        },
+        "testDate": {
+          "@id": "ex:testDate",
+          "@type": "xsd:email"
+        },
+        "issueDate": {
+          "@id": "ex:issueDate",
+          "@type": "xsd:string"
+        }
+      }
     }
   }
 }
