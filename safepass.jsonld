@@ -110,16 +110,16 @@
           "@id": "ex:sex",
           "@type": "xsd:string"
         },
-        "phoneno": {
-          "@id": "ex:phoneno",
+        "hp_no": {
+          "@id": "ex:hp_no",
           "@type": "xsd:string"
         },
-        "localYN": {
-          "@id": "ex:localYN",
+        "local_yn": {
+          "@id": "ex:local_yn",
           "@type": "xsd:email"
         },
-        "registerdate": {
-          "@id": "ex:registerdate",
+        "register_dt": {
+          "@id": "ex:register_dt",
           "@type": "xsd:string"
         }
       }
@@ -133,28 +133,28 @@
         "type": "@type",
         "xsd": "http://www.w3.org/2001/XMLSchema#",
         "ex": "https://example.org/examples#",
-        "testtype": {
-          "@id": "ex:testtype",
+        "test_type": {
+          "@id": "ex:test_type",
           "@type": "xsd:string"
         },
-        "docid": {
-          "@id": "ex:docid",
+        "doc_id": {
+          "@id": "ex:doc_id",
           "@type": "xsd:string"
         },
         "result": {
           "@id": "ex:result",
           "@type": "xsd:string"
         },
-        "medicalNM": {
-          "@id": "ex:medicalNM",
+        "medical_nm": {
+          "@id": "ex:medical_nm",
           "@type": "xsd:string"
         },
-        "testDate": {
-          "@id": "ex:testDate",
+        "test_dt": {
+          "@id": "ex:test_dt",
           "@type": "xsd:email"
         },
-        "issueDate": {
-          "@id": "ex:issueDate",
+        "issue_dt": {
+          "@id": "ex:issue_dt",
           "@type": "xsd:string"
         }
       }
