@@ -133,8 +133,28 @@
         "type": "@type",
         "xsd": "http://www.w3.org/2001/XMLSchema#",
         "ex": "https://example.org/examples#",
+        "hospital_name": {
+          "@id": "ex:hospital_name",
+          "@type": "xsd:string"
+        },
+        "hospital_code": {
+          "@id": "ex:hospital_code",
+          "@type": "xsd:string"
+        },
+        "hospital_did": {
+          "@id": "ex:hospital_did",
+          "@type": "xsd:string"
+        },
+        "recept_id": {
+          "@id": "ex:recept_id",
+          "@type": "xsd:string"
+        },
         "test_type": {
           "@id": "ex:test_type",
+          "@type": "xsd:string"
+        },
+        "test_method": {
+          "@id": "ex:test_method",
           "@type": "xsd:string"
         },
         "doc_id": {
@@ -147,6 +167,10 @@
         },
         "medical_nm": {
           "@id": "ex:medical_nm",
+          "@type": "xsd:string"
+        },
+        "medical_did": {
+          "@id": "ex:medical_did",
           "@type": "xsd:string"
         },
         "test_dt": {
