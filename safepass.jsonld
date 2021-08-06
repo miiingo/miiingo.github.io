@@ -31,16 +31,16 @@
           "@id": "ex:sex",
           "@type": "xsd:string"
         },
-        "hp_no": {
-          "@id": "ex:hp_no",
+        "hpNo": {
+          "@id": "ex:hpNo",
           "@type": "xsd:string"
         },
-        "local_yn": {
-          "@id": "ex:local_yn",
-          "@type": "xsd:email"
+        "localYn": {
+          "@id": "ex:localYn",
+          "@type": "xsd:string"
         },
-        "register_dt": {
-          "@id": "ex:register_dt",
+        "registerDate": {
+          "@id": "ex:registerDate",
           "@type": "xsd:string"
         }
       }
