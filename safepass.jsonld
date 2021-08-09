@@ -103,6 +103,41 @@
           "@type": "xsd:string"
         }
       }
+    },
+    "Hospital": {
+      "@id": "ex:Hospital",
+      "@context": {
+        "@version": 1.1,
+        "@protected": true,
+        "id": "@id",
+        "type": "@type",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "ex": "https://example.org/examples#",
+        "hospitalID": {
+          "@id": "ex:hospitalID",
+          "@type": "xsd:string"
+        },
+        "hospitalCode": {
+          "@id": "ex:hospitalCode",
+          "@type": "xsd:string"
+        },
+        "hospitalName": {
+          "@id": "ex:hospitalName",
+          "@type": "xsd:string"
+        },
+        "hospitalChief": {
+          "@id": "ex:hospitalChief",
+          "@type": "xsd:string"
+        },
+        "hospitalPhone": {
+          "@id": "ex:hospitalPhone",
+          "@type": "xsd:string"
+        },
+        "registerDate": {
+          "@id": "ex:registerDate",
+          "@type": "xsd:string"
+        }
+      }
     }
   }
 }
