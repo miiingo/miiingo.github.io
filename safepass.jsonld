@@ -54,52 +54,52 @@
         "type": "@type",
         "xsd": "http://www.w3.org/2001/XMLSchema#",
         "ex": "https://example.org/examples#",
-        "hospital_name": {
-          "@id": "ex:hospital_name",
+        "hospitalName": {
+          "@id": "ex:hospitalName",
           "@type": "xsd:string"
         },
-        "hospital_code": {
-          "@id": "ex:hospital_code",
+        "hospitalCode": {
+          "@id": "ex:hospitalCode",
           "@type": "xsd:string"
         },
-        "hospital_did": {
-          "@id": "ex:hospital_did",
+        "hospitalDID": {
+          "@id": "ex:hospitalDID",
           "@type": "xsd:string"
         },
-        "recept_id": {
-          "@id": "ex:recept_id",
+        "receptID": {
+          "@id": "ex:receptID",
           "@type": "xsd:string"
         },
-        "test_type": {
-          "@id": "ex:test_type",
+        "testType": {
+          "@id": "ex:testType",
           "@type": "xsd:string"
         },
-        "test_method": {
-          "@id": "ex:test_method",
+        "testMethod": {
+          "@id": "ex:testMethod",
           "@type": "xsd:string"
         },
-        "doc_id": {
-          "@id": "ex:doc_id",
+        "testDate": {
+          "@id": "ex:testDate",
+          "@type": "xsd:string"
+        },
+        "docID": {
+          "@id": "ex:docID",
           "@type": "xsd:string"
         },
         "result": {
           "@id": "ex:result",
           "@type": "xsd:string"
         },
-        "medical_nm": {
-          "@id": "ex:medical_nm",
+        "medicalDID": {
+          "@id": "ex:medicalDID",
           "@type": "xsd:string"
         },
-        "medical_did": {
-          "@id": "ex:medical_did",
+        "medicalName": {
+          "@id": "ex:medicalName",
           "@type": "xsd:string"
         },
-        "test_dt": {
-          "@id": "ex:test_dt",
-          "@type": "xsd:email"
-        },
-        "issue_dt": {
-          "@id": "ex:issue_dt",
+        "issueDate": {
+          "@id": "ex:issueDate",
           "@type": "xsd:string"
         }
       }
